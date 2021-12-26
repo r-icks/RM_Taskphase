@@ -31,7 +31,6 @@ void sort(string arr[100], int i, int len)
     {
         if(arr[i][k]>arr[i][k+1])
         {
-            cout<<arr[i][k];
             char temp;
             temp=arr[i][k];
             arr[i][k]=arr[i][k+1];
